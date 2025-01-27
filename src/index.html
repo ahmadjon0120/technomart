@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Demonstrates some basic HTML content elements and CSS"/>
+        <meta name="keywords" content="HTML5, tags"/>
+        <meta name="author" content="Akhmadjon Khamidov" />
+        <title> Home </title> 
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <nav>
+            <label class="logo"><a class="logo1" href="index.html">Technomart</a></label>
+                <ul>
+                    <li><a class="abc" href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="enquire.html">Enquiry</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="enhancements.html">Enhancements</a></li>
+                    <li><a href="enhancements2.html">Enhancements-2</a></li>
+                    <li class="cart"><a href="payment.html"><ion-icon name="basket-outline"></ion-icon>Payment <span>0</span></a></li>
+                </ul>
+        </nav>
+        <section class="products-list"> 
+            <h1 class="align-center">
+                IMAGE MAP
+            </h1>
+            </section>
+           <div id="div_id">
+            <div class="image-map">
+                <img src="../assign2/images/image-map.jpg" alt="image-map" usemap="#image-map">
+                <map name="image-map">
+                <area target="_top" alt="This is laptop." title="This is laptop." href="enhancements.html" coords="30,148,397,163,109,477,468,438,352,507,710,466,36,158,63,302,284,275,109,455,46,176,259,265,77,284,399,185,333,270,432,326,416,246,70,240" shape="poly">
+                <area target="_self" alt="This is tablet." title="This is tablet." href="product.html" coords="836,120,1408,120,1403,523,837,516" shape="poly">
+                </map>
+            </div>
+           </div>
+        <div class="footer">
+            <div class="a1">
+                <h3>USEFUL LINKS</h3>
+                <a href="index.html" class="a1-1">HOME</a>
+                <a href="product.html">PRODUCTS</a>
+                <a href="enquire.html">ENQUIRY</a>
+                <a href="about.html">ABOUT</a>
+                <a href="enhancements.html">ENHANCEMENTS</a>
+                <a href="payment.html">PAYMENT</a>
+            </div>
+            <div class="a2">
+                <h3>NEWSLETTER</h3>
+                <div class="frm"><form>
+                    <input type="email" name="Email_for_newsletter" id="email_newsletter" placeholder="Type your email addess">
+                    <br>
+                    <button type="submit">SUBSCRIBE NOW</button>
+                </form>
+            </div>
+            </div>
+            <div class="a3">
+                <h3>CONTACT</h3>
+                <p>Send Email:<a href="mailto:email@example.com">104096281@student.swin.edu.au</a></p>
+                <p>Call Us:<a href="tel:+1123-456-7890">123-456-7890</a></p>        
+            </div>
+        </div>
+        <script src="../assign2/scripts/main.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
