@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Demonstrates some basic HTML content elements and CSS"/>
+        <meta name="keywords" content="HTML5, tags"/>
+        <meta name="author" content="Akhmadjon Khamidov" />
+        <title> Enquiry </title> 
+        <link rel="stylesheet" href="../styles/styles.css">
+    </head>
+    <body>
+        <nav>
+            <label class="logo"><a class="logo1" href="index.html">Technomart</a></label>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a class="abc2" href="enquire.html">Enquiry</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="enhancements.html">Enhancements</a></li>
+                    <li><a href="enhancements2.html">Enhancements-2</a></li>
+                    <li class="cart"><a href="payment.html"><ion-icon name="basket-outline"></ion-icon>Payment <span>0</span></a></li>
+                </ul>
+        </nav>
+        <section class="products-list"> 
+            <h1 class="align-center">
+                PLEASE SELECT THE DESIRED PRODUCTS AND  FILL OUT THE FORM BELOW IN ORDER TO PROCEED TO PAYMENT PAGE
+            </h1>
+            </section>
+            <div class="container111">
+                <div class="pro-container">
+                <div class="pro">
+                    <img src="../assets/apple.jpg" alt="">
+                    <h3>Apple</h3> 
+                    <h3>$1700</h3>
+                    <a class="add-cart cart1" href="#"><div class="buy-button">Add to cart</div></a>
+                </div>
+                <!-- Second product -->
+                <div class="pro">
+                    <img src="../assets/dell.jpg" alt="">
+                    <h3>Dell</h3> 
+                    <h3>$1400</h3>
+                    <a class="add-cart cart2" href="#"><div class="buy-button">Add to cart</div></a>
+                </div>
+                <!-- Third product -->
+                <div class="pro">
+                    <img src="../assets/samsung.jpg" alt="">
+                    <h3>Samsung</h3> 
+                    <h3>$1800</h3>
+                    <a class="add-cart cart3" href="#"><div class="buy-button">Add to cart</div></a>
+                </div>
+                <!-- Fourth product -->
+                <div class="pro">
+                    <img src="images/microsoft.jpg" alt="">
+                    <h3>MICROSOFT</h3> 
+                    <h3>$2200</h3>
+                    <a class="add-cart cart4" href="#"><div class="buy-button">Add to cart</div></a>
+                </div>
+                <!-- Fifth product -->
+                <div class="pro">
+                    <img src="images/hp.jpg" alt="">
+                    <h3>HP</h3> 
+                    <h3>$1950</h3>
+                    <a class="add-cart cart5" href="#"><div class="buy-button">Add to cart</div></a>
+                </div>
+                <!-- Sixth product -->
+                <div class="pro">
+                    <img src="images/asus.jpg" alt="">
+                    <h3>ASUS</h3> 
+                    <h3>$2400</h3>
+                    <a class="add-cart cart6" href="#"><div class="buy-button">Add to cart</div></a>
+                </div>
+
+            <!-- Tablet -->
+           <!-- First product -->
+            <div class="pro">
+                <img src="images/lenovo.jpg" alt="">
+                <h3>LENOVO</h3> 
+                <h3>$750</h3>
+            <a class="add-cart cart7" href="#"><div class="buy-button">Add to cart</div></a>
+            </div>
+            <!-- Second product -->
+            <div class="pro">
+                <img src="images/samsung-tablet.jpg" alt="">
+                <h3>TAB-S-8</h3> 
+                <h3>$800</h3>
+                <a class="add-cart cart8" href="#"><div class="buy-button">Add to cart</div></a>
+            </div>
+            <!-- Third product -->
+            <div class="pro">
+                <img src="images/ipad.jpg" alt="">
+                <h3>IPAD</h3> 
+                <h3>$900</h3>
+                <a class="add-cart cart9" href="#"><div class="buy-button">Add to cart</div></a>
+            </div>
+            <!-- Fourth product -->
+            <div class="pro">
+                <img src="images/surface.jpg" alt="">
+                <h3>SURFACE</h3> 
+                <h3>$560</h3>
+                <a class="add-cart cart10" href="#"><div class="buy-button">Add to cart</div></a>
+            </div>
+            <!-- Fifth product -->
+            <div class="pro">
+                <img src="images/xiaomi.jpg" alt="">
+                <h3>XIAOMI</h3> 
+                <h3>$650</h3>
+                <a class="add-cart cart11" href="#"><div class="buy-button">Add to cart</div></a>
+            </div>
+            <!-- Sixth product -->
+            <div class="pro">
+                <img src="images/google.jpg" alt="">
+                <h3>GOOGLE</h3> 
+                <h3>$985</h3>
+                <a class="add-cart cart12" href="#"><div class="buy-button">Add to cart</div></a>
+            </div>
+        </div>
+            </div>
+                <div class="contact-box">  
+                    <div class="contact-left">
+                        <h2>Place your order</h2> <br>
+                        <form name="myForm" onsubmit="return validateForm()" method="post" action="payment.html">
+                           <div class="input-row"> 
+                           <div class="input-group">
+                            <label>First Name</label>
+                                <input type="text" name="fname">
+                           </div> 
+                           <div class="input-group">
+                            <label>Last Name</label>
+                            <input type="text" name="lastname">
+                           </div> 
+                           </div> 
+                           <div class="input-row"> 
+                            <div class="input-group">
+                             <label>Email</label>
+                             <input type="text" name="email">
+                            </div> 
+                            <div class="input-group">
+                                <label>Phone number</label>
+                                <input type="text" name="num">
+                               </div>  
+                            </div>  
+                            <div class="input-row"> 
+                                <div class="input-group">
+                                 <label>Address</label>
+                                 <input type="text" name="address">
+                                </div> 
+                                <div class="input-group">
+                                 <label>Suburb</label>
+                                 <input type="text" name="suburb">
+                                </div> 
+                                </div> 
+                                <div class="input-row"> 
+                                 <div class="input-group">
+                                  <label>State</label>
+                                  <select name="State" id="State" required>
+                                    <option value="">Please Select</option>
+                                    <option value="VIC">VIC</option>
+                                    <option value="NSW">NSW</option>
+                                    <option value="QLD">QLD</option>
+                                    <option value="NT">NT</option>
+                                    <option value="WA">WA</option>
+                                    <option value="SA">SA</option>
+                                    <option value="TAS">TAS</option>
+                                    <option value="ACT">ACT</option>
+                                  </select>
+                                 </div> 
+                                 <div class="input-group">
+                                  <label>Postcode</label>
+                                  <input id="id1" type="number" name="postcode" min="1000" max="9999" required>
+                                 </div>
+                                 </div>
+                                    <div class="place"><input type="submit" value="PAY NOW"/></div>
+                                </form> 
+                                </div>                                    
+                        </div>
+        <div class="footer">
+            <div class="a1">
+                <h3>USEFUL LINKS</h3>
+                <a href="index.html" class="a1-1">HOME</a>
+                <a href="product.html">PRODUCTS</a>
+                <a href="enquire.html">ENQUIRY</a>
+                <a href="about.html">ABOUT</a>
+                <a href="enhancements.html">ENHANCEMENTS</a>
+            </div>
+            <div class="a2">
+                <h3>NEWSLETTER</h3>
+                <div class="frm"><form>
+                    <input type="email" name="Email_for_newsletter" id="email_newsletter" placeholder="Type your email addess">
+                    <br>
+                    <button type="submit">SUBSCRIBE NOW</button>
+                </form>
+            </div>
+            </div>
+            <div class="a3">
+                <h3>CONTACT</h3>
+                <p>Send Email:<a href="mailto:email@example.com">104096281@student.swin.edu.au</a></p>
+                <p>Call Us:<a href="tel:+1123-456-7890">123-456-7890</a></p>        
+            </div>
+        </div>
+        <script src="../scripts/main.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
