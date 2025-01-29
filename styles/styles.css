@@ -24,6 +24,7 @@ label.logo {
     line-height : 80px;
     font-weight : bold;
     text-transform : uppercase;
+    margin-left: 45px;
     }
 nav .logo a {
     color : white;
@@ -241,8 +242,6 @@ select {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 50px;
-    padding-bottom: 100px;
 }
 .pro {
     margin: 10px 10px 10px 10px;
