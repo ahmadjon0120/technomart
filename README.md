@@ -1,11 +1,11 @@
-PROJECT TITLE: Technomart - Laptop & Tablet Online Store
+**PROJECT TITLE:** Technomart - Laptop & Tablet Online Store
 
-PURPOSE OF PROJECT:
+**PURPOSE OF PROJECT:**
 Technomart is an interactive e-commerce website designed for selling laptops and tablets from various brands. The platform provides a user-friendly shopping experience, allowing customers to browse products, add them to a cart, and complete purchases securely. The website incorporates JavaScript for interactive features, such as real-time validation, data storage, and dynamic content display. Additionally, the project follows standard web development practices using HTML5, CSS3, and JavaScript.
 
-VERSION or DATE: Final Version on 26/09/2022
+**VERSION or DATE:** Final Version on 26/09/2022
 
-HOW TO START THIS PROJECT:
+**HOW TO START THIS PROJECT:**
 
 Extract the provided zip file and ensure all files are within the correct folder structure.
 
@@ -15,9 +15,9 @@ Navigate through the website to explore different product categories and pages.
 
 Add products to the cart and proceed to checkout via payment.html.
 
-COMPLETED BY: AKHMADJON KHAMIDOV
+**COMPLETED BY:** AKHMADJON KHAMIDOV
 
-USER INSTRUCTIONS:
+**USER INSTRUCTIONS:**
 
 Open index.html in any modern web browser.
 
